@@ -13,7 +13,7 @@
     <field name="TRADETYPECAT_LIST">digits</field>
     <field name="TRADETYPE_LIST">overunder</field>
     <field name="TYPE_LIST">both</field>
-    <field name="CANDLEINTERVAL_LIST">60</field>
+    <field name="CANDLEINTERVAL_LIST">120</field>
     <field name="TIME_MACHINE_ENABLED">FALSE</field>
     <field name="RESTARTONERROR">TRUE</field>
     <statement name="INITIALIZATION">
@@ -21,7 +21,7 @@
         <field name="VAR" id="ITiw_xSBxuYP6qNF)F|h" variabletype="">Max Loss Amount</field>
         <value name="VALUE">
           <block type="math_number" id="e)@|uPb0;SOGU{4/{E~y">
-            <field name="NUM">125</field>
+            <field name="NUM">50</field>
           </block>
         </value>
         <next>
